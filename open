@@ -1,0 +1,33 @@
+
+> sd-0x-project-trybewallet@1.0.0 cy
+> env CY_CLI=true cypress run
+
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        10.11.0                                                                        │
+  │ Browser:        Electron 106 (headless)                                                        │
+  │ Node Version:   v18.13.0 (/home/lucas/.nvm/versions/node/v18.13.0/bin/node)                    │
+  │ Specs:          11 found (00.RunAll.cy.js, 01.LoginPage.cy.js, 02.Header.cy.js, 03.ExpensesFor │
+  │                 m.cy.js, 04.SaveExpensesForm.cy.js, 05.TestCoverage.cy.js, 06.ExpensesTable.cy │
+  │                 .js, 07.ExpenseGlobalState.cy.js, 08.DeleteExpense.cy.js, 09.EditExpense.cy.js │
+  │                 , 10.TestCoverage.cy.js)                                                       │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  00.RunAll.cy.js                                                                (1 of 11)
+Object has been destroyed
+TypeError: Object has been destroyed
+    at BrowserWindow.n.loadURL (node:electron/js2c/browser_init:33:1844)
+    at Object._launch (/home/lucas/.cache/Cypress/10.11.0/Cypress/resources/app/packages/server/lib/browsers/electron.js:225:19)
+    at Object._render (/home/lucas/.cache/Cypress/10.11.0/Cypress/resources/app/packages/server/lib/browsers/electron.js:169:26)
+    at Object.open (/home/lucas/.cache/Cypress/10.11.0/Cypress/resources/app/packages/server/lib/browsers/electron.js:419:21)
+    at Object.open (/home/lucas/.cache/Cypress/10.11.0/Cypress/resources/app/packages/server/lib/browsers/index.js:110:27)
+    at OpenProject.relaunchBrowser (/home/lucas/.cache/Cypress/10.11.0/Cypress/resources/app/packages/server/lib/open_project.js:153:20)
+

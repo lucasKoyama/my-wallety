@@ -1,0 +1,28 @@
+.upload-csv-btn {
+  align-items: center;
+  background-color: rgb(6, 109, 6);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  height: 2vw;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  transition: all 0.25s;
+  padding: 20px;
+}
+
+.upload-csv-btn:hover {
+  transform: scale(1.03);
+}
+
+.upload-csv-btn input , .upload-csv-btn label {
+  cursor: pointer;
+  width: 100%;
+}
+
+.fa-solid {
+  margin-right: 5px;
+}

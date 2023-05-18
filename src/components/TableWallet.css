@@ -1,0 +1,51 @@
+table {
+  color: #292929;
+  font-size: 0.9em;
+  margin-top: 70px;
+  transition: all 0.25s;
+  border-left: 1px solid #65656554;
+}
+
+tbody tr:hover {
+  background-color: #deecf7;
+  cursor: pointer;
+}
+
+th , td {
+  border-right: 1px solid #65656554;
+}
+
+thead tr th {
+  background-color: #acd1f1;
+  border-bottom: 1px solid #232323b2;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+th:last-child , td:last-child {
+  border-right: none;
+}
+
+.edit-btn {
+  background-color: transparent ! important;
+  border: none ! important;
+  color: green ! important;
+}
+
+.delete-btn {
+  background-color: transparent ! important;
+  border: none ! important;
+  color: red ! important;
+}
+
+.edit-btn:hover , .delete-btn:hover {
+  background-color: transparent ! important;
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 1024px) {
+  table {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
