@@ -40,7 +40,7 @@ class Header extends React.Component {
               <i className="fa-solid fa-bars fa-2x" />
             </button>
           </div>
-          <h3 data-testid="email-field">
+          <h3 data-testid="email-field" className="profile">
             {`${email} `}
             <i className="fa-solid fa-user" />
           </h3>

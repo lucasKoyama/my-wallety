@@ -45,4 +45,8 @@
     background-color: transparent ! important;
     font-size: 0.9em;
   }
+
+  .profile {
+    display: none;
+  }
 }
