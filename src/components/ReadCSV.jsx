@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './ReadCSV.css';
 import { connect } from 'react-redux';
-import { addCsvTags, addExpense, saveWallet } from '../redux/actions';
+import { addCsvTags, addExpense } from '../redux/actions';
 
 class ReadCSV extends React.Component {
   handleFile = (event) => {

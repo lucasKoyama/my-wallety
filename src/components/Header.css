@@ -27,21 +27,22 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   padding: 0 27px;
+  width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and ( max-width : 1024px ) {
+
   .show-form-btn {
-    margin-top: 10px;
+    background-color: transparent ! important;
+    border: none ! important;
+    color: #292929 ! important;
     display: block;
-    background-color: transparent !important;
-    border: none !important;
-    color: #292929 !important;
+    margin-top: 10px;
   }
-  
+
   .show-form-btn:hover {
-    background-color: transparent !important;
+    background-color: transparent ! important;
     font-size: 0.9em;
   }
 }

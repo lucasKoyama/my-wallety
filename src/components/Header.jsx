@@ -32,7 +32,7 @@ class Header extends React.Component {
             <i className="fa-solid fa-wallet fa-3x" />
             <h3 className="total">
               <p>Despesas Total: </p>
-              <span><i className="fa-solid fa-coins" /></span>
+              <i className="fa-solid fa-coins" />
               <span data-testid="total-field">{`  R$ ${total.toFixed(2)}`}</span>
               <span data-testid="header-currency-field"> BRL</span>
             </h3>

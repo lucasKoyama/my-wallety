@@ -1,9 +1,9 @@
 table {
+  border-left: 1px solid #65656554;
   color: #292929;
   font-size: 0.9em;
   margin-top: 70px;
   transition: all 0.25s;
-  border-left: 1px solid #65656554;
 }
 
 tbody tr:hover {
@@ -43,9 +43,10 @@ th:last-child , td:last-child {
   transform: scale(1.03);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and ( max-width : 1024px ) {
+
   table {
-    margin-left: 0 !important;
-    width: 100% !important;
+    margin-left: 0 ! important;
+    width: 100% ! important;
   }
 }
