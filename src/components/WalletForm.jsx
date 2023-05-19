@@ -137,14 +137,14 @@ class WalletForm extends React.Component {
               )
           }
           <ReadCSV />
-          <div className="pizza-chart">
-            <PizzaChart />
-          </div>
           <div className="made-by">
             <h5>© Developed by: Lucas Koyama</h5>
             <a href="https://www.linkedin.com/in/lucas-koyama/">
               <i className="fa-brands fa-linkedin" />
             </a>
+          </div>
+          <div className="pizza-chart">
+            <PizzaChart />
           </div>
         </form>
       </aside>

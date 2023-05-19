@@ -40,7 +40,8 @@ button:hover {
 
 .made-by {
   display: flex;
-  margin-top: 130px;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .made-by a {

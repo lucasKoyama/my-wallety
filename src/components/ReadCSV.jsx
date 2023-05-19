@@ -11,27 +11,27 @@ class ReadCSV extends React.Component {
     reader.onload = (e) => {
       const contents = e.target.result;
       const csvData = this.parseCSVData(contents);
+      const headers = csvData[0].map((header) => header.toLowerCase());
+      csvData.shift(); // remove primeiro elemento
       csvData.pop(); // remove ultimo elemento
-      this.getTags(csvData);
-      this.addExpense(csvData);
+      this.getTags(csvData, headers);
+      this.addExpense(csvData, headers);
     };
     reader.readAsText(file);
   };
 
-  getTags = (csvData) => {
+  getTags = (csvData, headers) => {
     const { addTags } = this.props;
-    const csvTagColumn = csvData[0].indexOf('tags');
+    const csvTagColumn = headers.indexOf('tag');
     const csvTags = [...new Set(csvData.map((line) => line[csvTagColumn]))];
-    csvTags.shift(); // remove primeiro elemento
     addTags(csvTags);
   };
 
-  addExpense = (csvData) => {
+  addExpense = (csvData, headers) => {
     const { addCsvExpense } = this.props;
-    const csvValueColumn = csvData[0].indexOf('valor');
-    const csvDescriptionColumn = csvData[0].indexOf('descrição');
-    const csvTagColumn = csvData[0].indexOf('tags');
-    csvData.shift(); // remove primeiro elemento
+    const csvValueColumn = headers.indexOf('valor');
+    const csvDescriptionColumn = headers.indexOf('descricao');
+    const csvTagColumn = headers.indexOf('tag');
     csvData.forEach((line) => {
       const value = line[csvValueColumn];
       const tag = line[csvTagColumn];
