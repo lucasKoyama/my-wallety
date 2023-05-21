@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Squash as Hamburger } from 'hamburger-react';
 import './Header.css';
 
 class Header extends React.Component {
@@ -36,9 +37,7 @@ class Header extends React.Component {
               <span data-testid="total-field">{`  R$ ${total.toFixed(2)}`}</span>
               <span data-testid="header-currency-field"> BRL</span>
             </h3>
-            <button className="show-form-btn" onClick={ () => this.showForm() }>
-              <i className="fa-solid fa-bars fa-2x" />
-            </button>
+            <Hamburger rounded onToggle={ () => this.showForm() } />
           </div>
           <h3 data-testid="email-field" className="profile">
             {`${email} `}
