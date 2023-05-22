@@ -54,12 +54,14 @@ const columns = [
   },
 ];
 
+const fifty = 50;
+const oneHundred = 100;
 const options = {
   filterType: 'multiselect',
   print: false,
   responsive: 'standard',
   rowsPerPage: 50,
-  rowsPerPageOptions: [50, 100, 150, 200],
+  rowsPerPageOptions: [fifty, oneHundred, fifty * 2, oneHundred * 2],
 };
 
 class TableWallet extends Component {
