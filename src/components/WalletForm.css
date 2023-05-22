@@ -18,14 +18,14 @@
   transition: all 1s;
 }
 
-button {
+.expense-form button {
   background-color: #3483fa ! important;
   color: white ! important;
   font-weight: 600 ! important;
   padding: 8px ! important;
 }
 
-button:hover {
+.expense-form button:hover {
   background-color: #2376f4 ! important;
   cursor: pointer ! important;
   font-weight: 700 ! important;
