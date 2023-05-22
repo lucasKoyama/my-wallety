@@ -15,6 +15,7 @@ tbody tr:hover {
 
 th , td {
   border-right: 1px solid #65656510;
+  font-size: 0.9em !important;
 }
 
 thead tr th {
@@ -44,10 +45,38 @@ th:last-child , td:last-child {
   transform: scale(1.03);
 }
 
-@media screen and ( max-width : 1024px ) {
+@media screen and ( max-width : 900px ) {
 
   .expenses-table {
     margin-left: 0 ! important;
     width: 100% ! important;
+  }
+
+  thead {
+    display: none !important;
+  }
+
+  tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100vw !important;
+    font-size: 1em !important;
+  }
+
+  td:first-of-type {
+    display: none;
+  }
+
+  td {
+    padding: 0 !important;
+  }
+
+  td div {
+    border-right: 1px solid #65656510 !important;
+    padding: 8px !important;
+  }
+
+  td div:first-of-type {
+    font-weight: 600;
   }
 }
