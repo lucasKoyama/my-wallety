@@ -59,7 +59,7 @@ const oneHundred = 100;
 const options = {
   filterType: 'multiselect',
   print: false,
-  responsive: 'standard',
+  responsive: 'stacked',
   rowsPerPage: 50,
   rowsPerPageOptions: [fifty, oneHundred, fifty * 2, oneHundred * 2],
 };
