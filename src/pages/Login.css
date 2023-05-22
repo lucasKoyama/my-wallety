@@ -6,6 +6,21 @@
   width: 100vw;
 }
 
+.login-section button {
+  background-color: #3483fa ! important;
+  color: white ! important;
+  font-weight: 600 ! important;
+  padding: 8px ! important;
+}
+
+.login-section button:hover {
+  background-color: #2376f4 ! important;
+  cursor: pointer ! important;
+  font-weight: 700 ! important;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
 .title {
   font-size: 1.5em;
   font-weight: 600;
