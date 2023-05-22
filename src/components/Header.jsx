@@ -37,7 +37,9 @@ class Header extends React.Component {
               <span data-testid="total-field">{`  R$ ${total.toFixed(2)}`}</span>
               <span data-testid="header-currency-field"> BRL</span>
             </h3>
-            <Hamburger rounded onToggle={ () => this.showForm() } />
+            <div className="show-form-btn">
+              <Hamburger rounded onToggle={ () => this.showForm() } />
+            </div>
           </div>
           <h3 data-testid="email-field" className="profile">
             {`${email} `}

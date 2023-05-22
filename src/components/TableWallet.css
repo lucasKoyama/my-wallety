@@ -1,25 +1,26 @@
-table {
-  border-left: 1px solid #65656554;
-  color: #292929;
-  font-size: 0.9em;
+.expenses-table {
+  margin-left: 300px;
+  width: 100%;
   margin-top: 70px;
-  transition: all 0.25s;
+}
+
+.expenses-table button {
+  text-transform: capitalize !important;
 }
 
 tbody tr:hover {
-  background-color: #deecf7;
-  cursor: pointer;
+  background-color: #deecf7 !important;
+  cursor: pointer !important;
 }
 
 th , td {
-  border-right: 1px solid #65656554;
+  border-right: 1px solid #65656510;
 }
 
 thead tr th {
-  background-color: #acd1f1;
-  border-bottom: 1px solid #232323b2;
-  font-size: 1em;
-  font-weight: 600;
+  background-color: #acd1f1 !important;
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
 }
 
 th:last-child , td:last-child {
@@ -45,7 +46,7 @@ th:last-child , td:last-child {
 
 @media screen and ( max-width : 1024px ) {
 
-  table {
+  .expenses-table {
     margin-left: 0 ! important;
     width: 100% ! important;
   }

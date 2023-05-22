@@ -34,16 +34,7 @@
 @media screen and ( max-width : 1024px ) {
 
   .show-form-btn {
-    background-color: transparent ! important;
-    border: none ! important;
-    color: #292929 ! important;
     display: block;
-    margin-top: 10px;
-  }
-
-  .show-form-btn:hover {
-    background-color: transparent ! important;
-    font-size: 0.9em;
   }
 
   .profile {
