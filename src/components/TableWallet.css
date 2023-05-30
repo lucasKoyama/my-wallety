@@ -10,7 +10,6 @@
 
 tbody tr:hover {
   background-color: #deecf7 !important;
-  cursor: pointer !important;
 }
 
 th , td {
@@ -32,12 +31,14 @@ th:last-child , td:last-child {
   background-color: transparent ! important;
   border: none ! important;
   color: green ! important;
+  cursor: pointer !important;
 }
 
 .delete-btn {
   background-color: transparent ! important;
   border: none ! important;
   color: red ! important;
+  cursor: pointer !important;
 }
 
 .edit-btn:hover , .delete-btn:hover {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2'; // ou Pie?
+import { Doughnut } from 'react-chartjs-2';
 import { connect } from 'react-redux';
 
 ChartJS.register(
