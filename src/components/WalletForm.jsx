@@ -139,7 +139,7 @@ class WalletForm extends React.Component {
           <ReadCSV />
           <div className="made-by">
             <h5>© Developed by: Lucas Koyama</h5>
-            <a href="https://www.linkedin.com/in/lucas-koyama/">
+            <a href="https://www.linkedin.com/in/lucas-koyama/" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-linkedin" />
             </a>
           </div>
