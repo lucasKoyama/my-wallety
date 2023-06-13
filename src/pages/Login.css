@@ -11,9 +11,10 @@
   color: white ! important;
   font-weight: 600 ! important;
   padding: 8px ! important;
+  pointer-events: auto;
 }
 
-.login-section button:hover {
+.login-section button:enabled:hover {
   background-color: #2376f4 ! important;
   cursor: pointer ! important;
   font-weight: 700 ! important;
@@ -21,13 +22,13 @@
   transition: all 0.5s;
 }
 
-.title {
+.login-section .title {
   font-size: 1.5em;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin: 10px 0;
 }
 
-.user-login {
+.login-section .user-login {
   align-items: center;
   background-color: white;
   border-radius: 0.5rem;
@@ -36,25 +37,31 @@
   flex-direction: column;
   justify-content: center;
   padding: 25px;
-  width: 300px;
 }
 
-.user-login input {
+.login-section .user-login input {
+  padding-left: 40px !important;
   height: 20px;
   width: 100%;
 }
 
-.login-btn {
+.login-section svg {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.login-section .login-btn {
   margin-left: 0 ! important;
   width: 100% ! important;
 }
 
-.login-btn:disabled {
+.login-section .login-btn:disabled {
   background: rgba(17, 17, 17, 0.1) ! important;
   color: rgba(17, 17, 17, 0.2) ! important;
 }
 
-.login-btn:enabled {
+.login-section .login-btn:enabled {
   color: white ! important;
   cursor: pointer ! important;
   font-weight: 700 ! important;
