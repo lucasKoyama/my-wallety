@@ -11,10 +11,10 @@ Think of the STAR + Hero Journey description for the entire README:
 <details>
   <summary>Summary</summary>
 
-  1. [Overview]()
-  2. [Features & Challenges solved]()
-  3. [Tools used]()
-  4. [Authors]()
+  1. [Overview](https://github.com/lucasKoyama/wallety/blob/main/README.md#overview---wallety)
+  2. [Features & Challenges solved](https://github.com/lucasKoyama/wallety/blob/main/README.md#-features--challenges-solved)
+  3. [Tools used](https://github.com/lucasKoyama/wallety/blob/main/README.md#%EF%B8%8F-tools-used)
+  4. [Authors](https://github.com/lucasKoyama/wallety/blob/main/README.md#-features--challenges-solved)
 </details>
 <p>
 Web app for financial control of expenses, with options to add expenses manually or through a CSV file, displays expenses through a table with filtering, sorting and search options; expenses are also displayed through a graph!
