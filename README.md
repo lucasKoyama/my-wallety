@@ -1,44 +1,76 @@
-# Wallety
+# Overview - Wallety
 ![Screenshot from 2023-06-06 13-26-14](https://github.com/lucasKoyama/wallety/assets/121680414/cd67a86a-08c5-4cd2-9ec4-459b95178f38)
-[Wallety](https://my-wallety.vercel.app/carteira)
-## :computer: Sobre
-Web app para controle financeiro das despesas, com opções de adicionar despesas manualmente ou por meio de um arquivo CSV, as despesas são exibidas por meio de uma tabela
-com opções de filtragem, ordenação e pesquisa, também é exibida as despesas por meio de um gráfico!
-
-## :pushpin: Features
+<!--
+Think of the STAR + Hero Journey description for the entire README:
+1. Situation: begin with the situation, what it aims to solve, and what the common problem is.
+2. Tasks: What were my responsibilities? What challenges were I responsible for?
+3. Action: What did I do to solve the challenge?
+4. Results: solutions developed, value brought to the company, and users.
+-->
+<!-- SITUATION / COMMON PROBLEM -->
 <details>
-  <summary>Página responsiva</summary>
-  A página foi desenvolvida de forma responsiva, adaptando-se a diferentes tamanhos de tela e dispositivos. Isso garante uma experiência consistente e agradável para os usuários, independentemente do dispositivo que estão utilizando.
+  <summary>Summary</summary>
+
+  1. [Overview]()
+  2. [Features & Challenges solved]()
+  3. [Tools used]()
+  4. [Authors]()
+</details>
+<p>
+Web app for financial control of expenses, with options to add expenses manually or through a CSV file, displays expenses through a table with filtering, sorting and search options; expenses are also displayed through a graph!
+</p>
+
+<a href="https://my-wallety.vercel.app/carteira">
+🌐DEMO LIVE - Click here to check it out on the web!
+</a>
+
+## 📌 Features & Challenges solved
+<!-- TASKS / CHALLENGES -->
+<details>
+  <summary>Responsive page</summary>
+
+The page was developed responsively, adapting to different screen sizes and devices. This ensures a consistent and pleasant experience for users, regardless of the device they are using.
 </details>
 
 <details>
-  <summary>Campos para preencher informações da despesa</summary>
-  Campo para inserir o valor, a moeda, o método de pagamento, a tag do tipo de gasto e uma descrição para o gasto. Foi usados Material UI para os campos.
+  <summary>Inputs to fill out expenses information</summary>
+
+Field to enter the amount, currency, payment method, expense type tag and a description of the expense. Material UI was used for the fields.
 </details>
 
 <details>
-  <summary>Importar despesa por CSV</summary>
-  O botão que faz a importação de um arquivo CSV permite adicionar várias despesas que estão armazenadas em um arquivo csv com as 3 colunas, desde que o cabeçario das colunas sejam "tag", "valor" e "descricao"!
+  <summary>Import expenses via CSV file</summary>
+
+  The button that imports a CSV file allows you to add several expenses that are stored in a csv file with 3 columns, as long as the column headers are "tag," "value," and "description"!
 </details>
 
 <details>
-  <summary>Tabela com as despesas, com opções avançadas de tabela</summary>
-  A tabela contém todas as despesas inseridas pelos campos e pelo botão de importar o CSV, ela tem opções de filtragem por tag, método de pagamento e moeda usada, também contém ordenação 
-  para os valores tanto em ordem crescente quanto decrescente. É possível fazer uma pesquisa de qualquer item da tabela através do nome dele também! As despesas da tabela pode ser removida e editada, é
-  possível também personalizar a visualização das colunas "escondendo" algumas! Foi usado um componente externo que usa Material UI para a tabela.
+  <summary>Expenses table with advanced options</summary>
+
+The table contains all expenses entered through the fields and the CSV import button, it has filtering options by tag, payment method and currency used, it also contains ordering for values in both ascending and descending order. It is possible to search for any item in the table using its name too! Expenses from the table can be removed and edited. You can also customize the view of the columns by "hiding" some! An external component that uses Material UI was used for the table.
 </details>
 
 <details>
-  <summary>Gráfico de "Donut"</summary>
-  Gráfico que exibe a distribuição dos gastos por "tag" em relação ao total gasto. Foi utilizado a biblioteca react-chartjs-2 para o gráfico.
+  <summary>"Donut graph"</summary>
+
+Graph that displays the distribution of expenses by "tag" in relation to the total spent. The react-chartjs-2 library was used for the chart.
 </details>
 
-## :rocket: Tecnologias usadas
-1.  Javascript
-2.  Html
-3.  Css
-4.  Unix & bash
-5.  React
-6.  Redux
-7.  Material UI - React Lib
-8.  React CHart JS 2 - React Lib
+## 🛠️ Tools used
+<!-- ACTION -->
+<!-- SKILL_BADGE/NAME: DESCRIPTION WHY IT WAS USED -->
+
+![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+## Authors
+- [lucasKoyama](https://github.com/lucasKoyama)
+
