@@ -1,5 +1,5 @@
 # Overview - Wallety
-![Screenshot from 2023-06-06 13-26-14](https://github.com/lucasKoyama/wallety/assets/121680414/cd67a86a-08c5-4cd2-9ec4-459b95178f38)
+<img width="100%" alt="image" src="https://github.com/lucasKoyama/my-wallety/assets/121680414/c316838e-6990-4eaa-a432-2d74876851fc">
 <!--
 Think of the STAR + Hero Journey description for the entire README:
 1. Situation: begin with the situation, what it aims to solve, and what the common problem is.
